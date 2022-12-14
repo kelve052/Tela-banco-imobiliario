@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco Imobiliario</title>
+    <link rel="shortcut icon" href="imgs/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/add_participantes.css">
+    <link rel="stylesheet" href="css/js.css">
+</head>
+<body>
+    <header>
+        <img id="icone_dinheiro" src="imgs/icone_dinheiro.png" alt="icone de dinheiro">
+        <p>Banco Imobiliario</p>
+        <img id="icone_config" src="imgs/icone_setings.png" alt="icone de configurações">
+    </header>
+    <main id="principal">
+        <h1 id="h1_bemvindo">Adicionar participante</h1>
+        <div id="nome_e_foto">
+            <p>Nome</p>
+            <input type="text" id="nome" placeholder="João">
+            <p>Foto</p>
+            <div id="perfis">
+                <div onclick="escolher(0)" class="div_perfils" id="div_perfils1"><img id="perfil1" class="perfils_imgs" src="imgs/perfils/dinosssauro_pescosso_longo.png" alt=""></div>
+                <div onclick="escolher(1)" class="div_perfils" id="div_perfils2"><img id="perfil2" class="perfils_imgs" src="imgs/perfils/jacaré.png" alt=""></div>
+                <div onclick="escolher(2)" class="div_perfils" id="div_perfils3"><img id="perfil3" class="perfils_imgs" src="imgs/perfils/dino.png" alt=""></div>
+                <div onclick="escolher(3)" class="div_perfils" id="div_perfils4"><img id="perfil4" class="perfils_imgs" src="imgs/perfils/gato.png" alt=""></div>
+                <div onclick="escolher(4)" class="div_perfils" id="div_perfils5"><img id="perfil5" class="perfils_imgs" src="imgs/perfils/golfinho.png" alt=""></div>
+                <div onclick="escolher(5)" class="div_perfils" id="div_perfils6"><img id="perfil6" class="perfils_imgs" src="imgs/perfils/coelho.png" alt=""></div>
+            </div>
+        </div>
+        <input id="botao" type="button" value="Adicionar">
+    </main>
+    <section id="section">
+    </section>
+    <script src="js/script.js"></script>
+</body>
+</html>
